@@ -1,0 +1,34 @@
+.project-container {
+  position: relative;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-container:hover .P-details {
+  opacity: 1;
+}
+
+.P-details {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.P-details ol {
+  list-style-type: disc;
+}
+
+.P-details li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .P-details {
+    top: 0%;
+  }
+}

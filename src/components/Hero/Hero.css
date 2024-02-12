@@ -1,0 +1,31 @@
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.rounded-hr {
+  border-top: 2px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* md:mt-[0%] mt-[10%] */
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-box {
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
