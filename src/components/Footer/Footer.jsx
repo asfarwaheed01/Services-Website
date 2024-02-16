@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <>
-      <section className="bg-[#404040] md:h-[50vh] h-auto">
+      <section className="bg-[#2F2F2F] md:h-[50vh] h-auto">
         <section className="md:py-[5%] py-[3%] max-w-[1190px] mx-auto pl-[15px] pr-[15px] h-auto flex flex-wrap text-[#DADADA] justify-between items-center md:flex-row flex-col text-center">
           <div className="footer-logo md:w-[300px] md:h-[300px] w-[200px] my-2 md:my-0">
             <img src={flogo} alt="" />

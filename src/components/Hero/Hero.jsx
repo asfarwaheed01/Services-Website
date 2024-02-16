@@ -18,7 +18,7 @@ const Hero = () => {
                 margin: "10px 0",
               }}
             />
-            <p className="text-[16px] md:text-[32px] text-[#DADADA]">
+            <p className="text-[16px] md:text-[30px] text-[#DADADA]">
               We provide a wide range of services for residential, commercial,
               and industrial projects. Our team of experienced and qualified
               professionals is dedicated to providing high-quality workmanship
