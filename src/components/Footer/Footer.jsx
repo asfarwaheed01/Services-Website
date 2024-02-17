@@ -50,7 +50,7 @@ const Footer = () => {
             <h2 className="md:text-left  font-bold text-[31px] mb-3">
               Socials:
             </h2>
-            <ul className="flex md:gap-2 gap-[0px]">
+            <ul className="flex md:gap-2">
               <li>
                 <a href="#">
                   <img src={f1} alt="" />
@@ -85,19 +85,18 @@ const Footer = () => {
               </li>
             </ul>
             <div className="email mt-4 text-left">
-              <h2 className="text-bold text-[31px]">Email Us at</h2>
-              <p className="text-semibold text-[25px]">afkservices@gmail.com</p>
+              <h2 className="text-bold text-[31px]">Email Us at:</h2>
+              <p className="text-semibold text-[20px]">
+                akftechnicalservices@gmail.com
+              </p>
             </div>
           </div>
         </section>
         <hr className="text-white !important border-t-4" />
 
-        <div className="copyright flex justify-between text-white py-[1px] md:px-5 px-1">
+        <div className="copyright text-center text-white py-[1px] md:px-5 px-1">
           <div className="copy md:text-[14px] text-[12px]">
-            <p>&copy;Copyrights 2023 AFK Services. All Rights Reserved</p>
-          </div>
-          <div className="madeby md:text-[14px] text-[12px]">
-            Designed and Developed by asfarwaheed01@gmail.com
+            <p>&copy;Copyrights 2024-25 AKF Services. All Rights Reserved</p>
           </div>
         </div>
       </section>

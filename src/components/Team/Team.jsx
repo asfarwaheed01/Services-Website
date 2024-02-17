@@ -34,6 +34,7 @@ const Team = () => {
             <h2 className="text-[32px] font-bold mb-3 text-left">Employees:</h2>
             <div className="emp-lists flex gap-5 text-left">
               <ol className="list-disc">
+                <li className="mb-2">Shoaib Khaliq</li>
                 <li className="mb-2">Rizwan Farooq</li>
                 <li className="mb-2">Sk Najam Ali</li>
                 <li className="mb-2">Sk Samer</li>
