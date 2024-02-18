@@ -16,6 +16,7 @@
   height: 37%;
   background-color: rgba(0, 0, 0, 0.5);
   top: 30%;
+  padding-top: 10px;
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
