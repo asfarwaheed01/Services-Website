@@ -61,6 +61,7 @@ const Projects = () => {
               alt=""
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
             />
+
             <div className="P-details">
               <p className="text-[16px] md:text-[18px] text-left">
                 In this Projcet, We did:
