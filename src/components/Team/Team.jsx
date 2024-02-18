@@ -29,10 +29,8 @@ const Team = () => {
               Engr. Muhammad Zohaib
             </p>
             <div className="flex items-center text-left md:justify-start justify-center">
-              <h3 className="mr-2 font-bold">Manager:</h3>
-              <p className="items-center text-[18px] font-bold mb-0">
-                Shoaib Khaliq
-              </p>
+              <h3 className="mr-2 font-bold items-center">Manager:</h3>
+              <p className="text-[20px] font-bold mb-0">Shoaib Khaliq</p>
             </div>
           </div>
           <hr className="line border-t-2 opacity-[1]" />
