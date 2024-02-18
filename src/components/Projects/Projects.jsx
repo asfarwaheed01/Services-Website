@@ -55,7 +55,7 @@ const Projects = () => {
               <h2>DAMAC Hills Villas Renovation</h2>
             </div>
           </div>
-          <div className="project-container md:w-[30%] w-[90%] mx-auto md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
+          <div className="project-container md:w-[30%] w-[90%] mx-auto md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
             <img
               src={p3}
               alt=""
