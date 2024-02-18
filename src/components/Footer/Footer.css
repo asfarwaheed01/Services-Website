@@ -44,3 +44,9 @@ a {
 .socials li img:hover {
   border-color: white; /* Shining bright border color on hover */
 }
+
+@media screen and (max-width: 767px) {
+  .f-links {
+    text-align: center;
+  }
+}

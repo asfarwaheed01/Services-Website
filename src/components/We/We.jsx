@@ -17,7 +17,7 @@ const We = () => {
               workmanship and exceptional customer service.
             </p>
           </div>
-          <div className="we-img md:w-[50%] w-[90%] mx-auto">
+          <div className="we-img md:w-[50%] w-[90%] mx-auto mb-5">
             <img src={weimg} alt="" />
           </div>
         </div>

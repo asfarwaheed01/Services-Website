@@ -28,13 +28,18 @@ const Team = () => {
             <p className="md:text-[24px] text-[16px] font-semibold mb-3 md:text-left">
               Engr. Muhammad Zohaib
             </p>
+            <div className="flex items-center text-left md:justify-start justify-center">
+              <h3 className="mr-2 font-bold">Manager:</h3>
+              <p className="items-center text-[18px] font-bold mb-0">
+                Shoaib Khaliq
+              </p>
+            </div>
           </div>
           <hr className="line border-t-2 opacity-[1]" />
           <div className="employees">
             <h2 className="text-[32px] font-bold mb-3 text-left">Employees:</h2>
             <div className="emp-lists flex gap-5 text-left">
               <ol className="list-disc">
-                <li className="mb-2">Shoaib Khaliq</li>
                 <li className="mb-2">Rizwan Farooq</li>
                 <li className="mb-2">Sk Najam Ali</li>
                 <li className="mb-2">Sk Samer</li>

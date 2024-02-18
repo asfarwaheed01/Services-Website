@@ -29,7 +29,7 @@ const Footer = () => {
               {linksData.map(({ name, link }) => (
                 <li
                   key={link}
-                  className="mb-2 text-white text-[24px] cursor-pointer transition-all duration-300 hover:underline md:text-left text-center"
+                  className="mb-2 text-white text-[24px] cursor-pointer transition-all duration-300 hover:underline md:text-left f-links"
                 >
                   <ScrollLink
                     to={link}
@@ -50,7 +50,7 @@ const Footer = () => {
             <h2 className="md:text-left  font-bold text-[31px] mb-3">
               Socials:
             </h2>
-            <ul className="flex md:gap-2">
+            <ul className="flex md:gap-2 gap-0 md:justify-start justify-center">
               <li>
                 <a href="#">
                   <img src={f1} alt="" />

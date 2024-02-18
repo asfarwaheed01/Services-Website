@@ -46,7 +46,7 @@ const Services = () => {
                 <li>Split unit AC installation</li>
                 <li>Central AC installation</li>
                 <li>We are providing air conditioning complete installation</li>
-                <li>maintenance, ducting, wiring and repair services</li>
+                <li>Maintenance, ducting, wiring and repair services</li>
               </ol>
             </p>
           </div>
@@ -62,7 +62,7 @@ const Services = () => {
             <p className="text-[16px] md:text-[18px] text-left">
               <ol style={{ listStyleType: "disc" }}>
                 <li>Complete Electrical installations</li>
-                <li>diesel generating stations</li>
+                <li>Diesel generating stations</li>
                 <li>Low voltage & current installations</li>
                 <li>Lightning protection.</li>
                 <li>Building management systems.</li>

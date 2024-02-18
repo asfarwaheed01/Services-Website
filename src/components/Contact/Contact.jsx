@@ -16,6 +16,7 @@ const Contact = () => {
         () => {
           console.log("SUCCESS!");
           setOpen(true);
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -30,7 +31,7 @@ const Contact = () => {
     >
       <section className=" text-center max-w-[1190px] mx-auto pl-[15px] pr-[15px] h-full">
         <form
-          className="md:w-[70%] w-[90%] mx-auto text-left border-2 py-10 bg-slate-50 rounded-lg px-3 md:px-20 shadow-2xl"
+          className="md:w-[70%] w-[90%] mx-auto text-left border-2 py-10 bg-slate-50 rounded-lg md:px-20 px-3 shadow-2xl"
           onSubmit={handleSubmit}
           ref={form}
         >
@@ -49,7 +50,7 @@ const Contact = () => {
               name="user_email"
               id="email"
               className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-300 dark:border-gray-600 dark:placeholder-gray-500 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-              placeholder="asfarwaheed01@gmail.com"
+              placeholder="i.e: akftechnicalservices@gmail.com"
               required
             />
           </div>
@@ -66,7 +67,7 @@ const Contact = () => {
               id="password"
               className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-300 dark:border-gray-600 dark:placeholder-gray-500 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
               required
-              placeholder="i.e: Asfar Waheed"
+              placeholder="i.e: Imran Khalid"
             />
           </div>
           <div className="mb-4">
