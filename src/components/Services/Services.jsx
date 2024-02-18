@@ -62,7 +62,6 @@ const Services = () => {
             <p className="text-[16px] md:text-[18px] text-left">
               <ol style={{ listStyleType: "disc" }}>
                 <li>Complete Electrical installations</li>
-                <li>Diesel generating stations</li>
                 <li>Low voltage & current installations</li>
                 <li>Lightning protection.</li>
                 <li>Building management systems.</li>

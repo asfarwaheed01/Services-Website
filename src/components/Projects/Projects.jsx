@@ -43,11 +43,11 @@ const Projects = () => {
               <p className="text-[16px] md:text-[18px] text-left">
                 In this Projcet, We did:
                 <ol>
-                  <li>we can complete renovation of villa Fit out</li>
-                  <li>decoration and Painting</li>
-                  <li>backyard renovation</li>
-                  <li> villa front side complete decoration</li>
-                  <li> carpeting and Interior designing</li>
+                  <li>We can complete renovation of villa Fit out</li>
+                  <li>Decoration and Painting</li>
+                  <li>Backyard renovation</li>
+                  <li>Villa front side complete decoration</li>
+                  <li>Carpeting and Interior designing</li>
                 </ol>
               </p>
             </div>
@@ -68,8 +68,8 @@ const Projects = () => {
                   <li>
                     Demolition old café and complete renovation of new café
                   </li>
-                  <li>carpentry work and Fit Out</li>
-                  <li> Electrical wiring</li>
+                  <li>Carpentry work and Fit Out</li>
+                  <li>Electrical wiring</li>
                   <li>Cooling system complete installation</li>
                 </ol>
               </p>

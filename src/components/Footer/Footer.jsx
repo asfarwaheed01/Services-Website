@@ -52,7 +52,7 @@ const Footer = () => {
             </h2>
             <ul className="flex md:gap-2 gap-0 md:justify-start justify-center">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=61555357547209">
                   <img src={f1} alt="" />
                 </a>
               </li>
