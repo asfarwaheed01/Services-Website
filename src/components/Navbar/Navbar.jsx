@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import navimg from "../../assets/weblogo.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div className="nav">
-      <div className="shadow-lg w-full fixed top-0 left-0 z-[999]">
+      <div className="shadow-lg w-full fixed top-0 left-0 z-[999] fade-in">
         <div className="md:px-10 py-4 px-7 md:flex justify-between items-center bg-white">
           <div className="flex items-center justify-between">
             {/* AFK Services text */}
