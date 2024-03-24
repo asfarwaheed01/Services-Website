@@ -5,14 +5,14 @@ import icon3 from "../../assets/icon (2).png";
 const Services = () => {
   return (
     <section
-      className="py-[8%] text-center max-w-[1190px] mx-auto pl-[15px] pr-[15px] h-auto md:h-[100vh]"
+      className="py-[8%] text-center max-w-[1590px] mx-auto pl-[15px] pr-[15px] h-auto md:h-[100vh]"
       id="services"
     >
-      <h1 className="text-[31px] md:text-[51px] font-bold mb-[10%]">
+      <h1 className="text-[31px] md:text-[51px] font-bold mb-[5%]">
         Our Services
       </h1>
-      <div className="services flex flex-wrap gap-5 md:flex-row flex-col">
-        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[10px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out ">
+      <div className="services flex flex-wrap gap-2 md:flex-row flex-col">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[23%] px-[10px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out ">
           <img
             src={icon2}
             alt="icon"
@@ -32,7 +32,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[20px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[23%] px-[20px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
           <img
             src={icon3}
             alt="icon"
@@ -52,7 +52,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[23%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
           <img
             src={icon1}
             alt="icon"
@@ -70,6 +70,28 @@ const Services = () => {
                 <li>Pumping Stations Installations.</li>
                 <li>Sewage treatment plants.</li>
                 <li>CO2 & FM 200 installations.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[23%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
+          <img
+            src={icon1}
+            alt="icon"
+            className="w-[75px] h-[75px] md:w-[150px] md:h-[150px] mx-auto"
+          />
+          <div className="text">
+            <h2 className="text-green-900">Other Services</h2>
+            <p className="text-[16px] md:text-[18px] text-left">
+              <ol style={{ listStyleType: "disc" }} className="">
+                <li>Fit Out.</li>
+                <li>Renovation.</li>
+                <li>Tiling Work.</li>
+                <li>Repairing.</li>
+                <li>Carpentry Services.</li>
+                <li>Wall Paper Fixing.</li>
+                <li>Painting Work.</li>
+                <li>Floor Work.</li>
               </ol>
             </p>
           </div>
