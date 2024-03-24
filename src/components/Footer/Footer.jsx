@@ -95,7 +95,7 @@ const Footer = () => {
             </ul>
             <div className="email mt-4 text-left">
               <h2 className="text-bold text-[31px]">Email Us at:</h2>
-              <p className="text-semibold text-[20px] flex flex-col gap-2">
+              <p className="text-semibold md:text-[20px] text-[14px] flex flex-col gap-2">
                 <a
                   href="mailto:md.imran@akftechnicalservices.com"
                   className="text-white"
