@@ -12,7 +12,7 @@ const Services = () => {
         Our Services
       </h1>
       <div className="services flex flex-wrap gap-5 md:flex-row flex-col">
-        <div className="card border hover:shadow-lg text-center mx-auto w-[80%] md:w-[30%] px-[10px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out ">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[10px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out ">
           <img
             src={icon2}
             alt="icon"
@@ -32,7 +32,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card border hover:shadow-lg text-center mx-auto w-[80%] md:w-[30%] px-[20px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[20px] py-[20px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
           <img
             src={icon3}
             alt="icon"
@@ -52,7 +52,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card border hover:shadow-lg text-center mx-auto w-[80%] md:w-[30%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
+        <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[30%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
           <img
             src={icon1}
             alt="icon"
