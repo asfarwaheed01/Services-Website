@@ -22,9 +22,9 @@ const Projects = () => {
                 In this Projcet, We did:
                 <ol>
                   <li>Old AC demolition</li>
-                  <li>HVAC complete Installation</li>
+                  <li>FAHU, Deluxe and Split AC Installation</li>
                   <li>Complete Paint, WaterProofing</li>
-                  <li>Fit out and Trunking</li>
+                  <li>Ducting, Trunking and Fit out work</li>
                   <li>Electrical Wiring replacements</li>
                 </ol>
               </p>

@@ -9,12 +9,12 @@ const We = () => {
             <h1 className="text-[35px] font-bold mb-4 text-left">Who we are</h1>
             <p className=" text-[16px] md:text-[24px] text-left">
               We are pleased to introduce ourselves to your esteemed
-              organization as one of the most trusted company of AC
-              Installation, Electrical, and Plumbing contractor in United Arab
-              Emirates. We provide a wide range of services for residential,
-              commercial, and industrial projects. Our team of experienced and
-              qualified professionals is dedicated to providing high-quality
-              workmanship and exceptional customer service.
+              organization as one of the most trusted company of MEP, Renovation
+              and Civil work contractor in United Arab Emirates. We provide a
+              wide range of services for residential, commercial, and industrial
+              projects. Our team of experienced and qualified professionals is
+              dedicated to providing high-quality workmanship and exceptional
+              customer service.
             </p>
           </div>
           <div className="we-img md:w-[50%] w-[90%] mx-auto mb-5">

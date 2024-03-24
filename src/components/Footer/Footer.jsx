@@ -66,7 +66,12 @@ const Footer = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <img src={f2} alt="" />
+                  <img
+                    src={f2}
+                    alt=""
+                    className="insta"
+                    style={{ width: "57px", height: "57px", marginTop: "-3px" }}
+                  />
                 </a>
               </li>
               <li>
@@ -90,8 +95,25 @@ const Footer = () => {
             </ul>
             <div className="email mt-4 text-left">
               <h2 className="text-bold text-[31px]">Email Us at:</h2>
-              <p className="text-semibold text-[20px]">
-                akftechnicalservices@gmail.com
+              <p className="text-semibold text-[20px] flex flex-col gap-2">
+                <a
+                  href="mailto:md.imran@akftechnicalservices.com"
+                  className="text-white"
+                >
+                  md.imran@akftechnicalservices.com
+                </a>
+                <a
+                  href="mailto:engr.zohaib@akftechnicalservices.com"
+                  className="text-white"
+                >
+                  engr.zohaib@akftechnicalservices.com
+                </a>
+                <a
+                  href="mailto:info@akftechnicalservices.com"
+                  className="text-white"
+                >
+                  info@akftechnicalservices.com
+                </a>
               </p>
             </div>
           </div>

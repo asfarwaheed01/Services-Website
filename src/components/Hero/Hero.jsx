@@ -13,16 +13,16 @@ const Hero = () => {
             <hr
               className="rounded-hr"
               style={{
-                borderTop: "5px solid white",
+                borderTop: "5px solid white !important",
                 borderRadius: "5px",
                 margin: "10px 0",
               }}
             />
             <p className="text-[16px] md:text-[30px] text-[#DADADA]">
-              We provide a wide range of services for residential, commercial,
-              and industrial projects. Our team of experienced and qualified
-              professionals is dedicated to providing high-quality workmanship
-              and exceptional customer service.
+              We provide MEP, Renovation and Civil work services on residential,
+              commercial and industrial level. Our team of experienced and
+              qualified professionals is dedicated to providing high-quality
+              workmanship and exceptional customer services
             </p>
           </div>
         </div>

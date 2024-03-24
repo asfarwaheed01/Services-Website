@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Services/Services";
 import Team from "./components/Team/Team";
+import TeamPic from "./components/TeamPic/TeamPic";
 import We from "./components/We/We";
 import WhatsApp from "./components/Whatsapp/Whatsapp";
 import Work from "./components/Work/Work";
@@ -22,6 +23,7 @@ function App() {
       <Projects />
       <We />
       <Team />
+      <TeamPic />
       <Work />
       <Contact />
       <Footer />

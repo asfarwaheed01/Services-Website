@@ -1,6 +1,4 @@
 // WhatsApp.js
-
-import React from "react";
 import whatsappLogo from "../../assets/whatsapplogo.png";
 import "./whatsapp.css";
 
@@ -8,7 +6,7 @@ const WhatsApp = () => {
   const whatsappNumber = "+971566679896";
 
   return (
-    <div className="fixed md:top-[15%] top-[17%] right-[2%] hover:scale-110 transition-all duration-200 ease-in">
+    <div className="fixed md:top-[15%] top-[20%] right-[2%] hover:scale-110 transition-all duration-200 ease-in">
       <a
         href={`https://wa.me/${whatsappNumber}`}
         target="_blank"
