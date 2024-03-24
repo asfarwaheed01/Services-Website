@@ -1,6 +1,7 @@
 import icon1 from "../../assets/icon.png";
 import icon2 from "../../assets/icon (1).png";
 import icon3 from "../../assets/icon (2).png";
+import icon4 from "../../assets/others.png";
 
 const Services = () => {
   return (
@@ -76,9 +77,9 @@ const Services = () => {
         </div>
         <div className="card border hover:shadow-lg text-center mx-auto w-[90%] md:w-[23%] px-[20px] py-[25px] rounded-xl shadow-2xl transition-transform duration-1000 ease-in-out">
           <img
-            src={icon1}
+            src={icon4}
             alt="icon"
-            className="w-[75px] h-[75px] md:w-[150px] md:h-[150px] mx-auto"
+            className="w-[65px] h-[65px] md:w-[115px] md:h-[115px] my-[6%] mx-auto"
           />
           <div className="text">
             <h2 className="text-green-900">Other Services</h2>
