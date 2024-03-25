@@ -19,10 +19,13 @@ const Hero = () => {
               }}
             />
             <p className="text-[16px] md:text-[30px] text-[#DADADA]">
-              We provide MEP, Renovation and Civil work services on residential,
-              commercial and industrial level. Our team of experienced and
-              qualified professionals is dedicated to providing high-quality
-              workmanship and exceptional customer services
+              We provide <strong>HVAC</strong>,<strong> Electrical</strong>,
+              <strong> Plumbing</strong>,<strong> Renovation</strong>,
+              <strong> Fit Out</strong> and <strong> Civil work </strong>
+              services on residential, commercial and industrial level. Our team
+              of experienced and qualified professionals is dedicated to
+              providing high-quality workmanship and exceptional customer
+              services.
             </p>
           </div>
         </div>
