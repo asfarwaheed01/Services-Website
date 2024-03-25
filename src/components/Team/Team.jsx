@@ -21,7 +21,7 @@ const Team = () => {
             <div className="overflow-hidden flex flex-wrap">
               <a
                 href="mailto:md.imran@akftechnicalservices.com"
-                className="text-black md:text-[20px] text-[11px] inline-block"
+                className="text-black md:text-[20px] text-[10px] inline-block"
               >
                 md.imran@akftechnicalservices.com
               </a>
@@ -39,7 +39,7 @@ const Team = () => {
             <div className="mb-3">
               <a
                 href="mailto:engr.zohaib@akftechnicalservices.com"
-                className="text-black m-0 text-left md:text-[20px] text-[11px]"
+                className="text-black m-0 text-left md:text-[20px] text-[10px]"
               >
                 engr.zohaib@akftechnicalservices.com
               </a>
