@@ -95,35 +95,12 @@ const Footer = () => {
             </ul>
             <div className="email mt-4 text-left">
               <h2 className="text-bold text-[31px]">Email Us at:</h2>
-              <p className="text-semibold md:text-[20px] text-[14px] flex flex-col gap-2">
-                <div className="flex flex-col">
-                  <p className="text-[24px] mb-0">Imran:</p>
-                  <a
-                    href="mailto:md.imran@akftechnicalservices.com"
-                    className="text-white"
-                  >
-                    md.imran@akftechnicalservices.com
-                  </a>
-                </div>
-                <div className="flex flex-col">
-                  <p className="text-[24px] mb-0">Zohaib:</p>
-                  <a
-                    href="mailto:engr.zohaib@akftechnicalservices.com"
-                    className="text-white"
-                  >
-                    engr.zohaib@akftechnicalservices.com
-                  </a>
-                </div>
-                <div>
-                  <p className="text-[24px] mb-0">In Contact Email:</p>
-                  <a
-                    href="mailto:info@akftechnicalservices.com"
-                    className="text-white"
-                  >
-                    info@akftechnicalservices.com
-                  </a>
-                </div>
-              </p>
+              <a
+                href="mailto:info@akftechnicalservices.com"
+                className="text-white md:text-[22px] text-[16px]"
+              >
+                info@akftechnicalservices.com
+              </a>
             </div>
           </div>
         </section>

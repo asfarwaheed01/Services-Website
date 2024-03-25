@@ -15,9 +15,17 @@ const Team = () => {
             <h2 className="md:text-[32px] text-[20px] font-bold mb-3">
               Imran Khalid
             </h2>
-            <p className="md:text-[24px] text-[16px] font-semibold">
+            <p className="md:text-[24px] text-[16px] mb-2 font-semibold">
               Founder of AKF technical Services
             </p>
+            <div className="overflow-hidden flex flex-wrap">
+              <a
+                href="mailto:md.imran@akftechnicalservices.com"
+                className="text-black md:text-[20px] text-[11px] inline-block"
+              >
+                md.imran@akftechnicalservices.com
+              </a>
+            </div>
           </div>
         </div>
         <div className="members md:text-left text-center">
@@ -25,9 +33,17 @@ const Team = () => {
             <h2 className="md:text-[32px] text-[20px] font-bold md:mb-3 mb-2 md:text-left">
               Project Engineer
             </h2>
-            <p className="md:text-[24px] text-[16px] font-semibold mb-3 md:text-left">
+            <p className="md:text-[24px] text-[16px] font-semibold mb-1 md:text-left">
               Engr. Muhammad Zohaib
             </p>
+            <div className="mb-3">
+              <a
+                href="mailto:engr.zohaib@akftechnicalservices.com"
+                className="text-black m-0 text-left md:text-[20px] text-[11px]"
+              >
+                engr.zohaib@akftechnicalservices.com
+              </a>
+            </div>
             <div className="flex items-center text-left md:justify-start justify-center">
               <h3 className="mr-2 font-bold items-center">Manager:</h3>
               <p className="text-[20px] font-bold mb-1 items-center">
