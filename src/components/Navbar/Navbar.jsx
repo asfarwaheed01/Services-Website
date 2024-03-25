@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="shadow-lg w-full fixed top-0 left-0 z-[999] fade-in">
-        <div className="md:px-10 py-2 px-7 md:flex justify-between items-center bg-white">
+        <div className="md:px-10 md:py-4 py-2 px-7 md:flex justify-between items-center bg-white">
           <div className="flex items-center justify-between">
             {/* AFK Services text */}
             <span
