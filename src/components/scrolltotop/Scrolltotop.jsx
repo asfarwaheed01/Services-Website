@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import movetop from "../../assets/move.png";
 
 const ScrollToTop = () => {
@@ -34,7 +34,7 @@ const ScrollToTop = () => {
       }`}
     >
       <button
-        className="topbtn animate-bounce mb-20 mr-4 p-2 border-none rounded-full cursor-pointer bg-gray-100"
+        className="topbtn animate-bounce mb-10 mr-4 p-2 border-none rounded-full cursor-pointer bg-gray-100"
         onClick={handleScrollToTop}
       >
         <img src={movetop} alt="" />

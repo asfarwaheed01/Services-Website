@@ -3,6 +3,7 @@ import tick from "../../assets/check-circle.png";
 import "./About.css";
 
 const About = () => {
+  
   return (
     <section className="w-full bg-[#2F2F2F] text-[#DADADA] md:h[100vh] h-[auto] pb-[20px] md:pt-[7%] md:pb-[5%]">
       <section
@@ -11,7 +12,7 @@ const About = () => {
       >
         <div className="about flex w-full gap-[10px] md:gap-[50px] md:flex-row flex-col-reverse">
           <div className="services-img w-[90%] mx-auto">
-            <img src={aboutimg} alt="" />
+            <img src={aboutimg} alt="" loading="lazy"/>
           </div>
           <div className="flex flex-col description md:w-[50%] w:[90%] pt-[7%] mx-auto">
             <h1 className="w-full md:w-[70%] text-3xl text-[51px] mb-[40px] font-extrabold">
@@ -19,7 +20,7 @@ const About = () => {
             </h1>
             <div className="abt-text flex flex-col px-[10px] md:px-0 w-full">
               <div className="text1 flex gap-[20px]">
-                <img src={tick} alt="" className="w-[25px] h-[25px]" />
+                <img src={tick} alt="" className="w-[25px] h-[25px]" loading="lazy"/>
                 <div className="desc md:w-[100%] w-[90%] mx-auto text-left">
                   <h2 className="text-[20px] w-auto md:w-[67%] font-semibold">
                     Over 200,000 Satisfied Clients
@@ -32,7 +33,7 @@ const About = () => {
                 </div>
               </div>
               <div className="text1 flex gap-[20px]">
-                <img src={tick} alt="" className="w-[25px] h-[25px]" />
+                <img src={tick} alt="" className="w-[25px] h-[25px]" loading="lazy"/>
                 <div className="desc md:w-[75%] w-auto text-left">
                   <h2 className="text-[20px] w-auto md:w-[54%] font-semibold">
                     Certified and Trusted
@@ -45,7 +46,7 @@ const About = () => {
                 </div>
               </div>
               <div className="text1 flex gap-[20px]">
-                <img src={tick} alt="" className="w-[25px] h-[25px]" />
+                <img src={tick} alt="" className="w-[25px] h-[25px]" loading="lazy"/>
                 <div className="desc w-[90%] text-left">
                   <h2 className="text-[20px] md:w-[48%] w-auto font-semibold">
                     Eco-Friendly Services

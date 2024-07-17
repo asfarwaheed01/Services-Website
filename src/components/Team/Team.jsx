@@ -1,10 +1,10 @@
-import founder from "../../assets/founder.png";
+// import founder from "../../assets/founder.png";
 
 const Team = () => {
   return (
-    <section className="py-[5%] text-center max-w-[1190px] mx-auto pl-[15px] pr-[15px] md:h-[100vh] h-auto overflow-hidden">
-      <h1 className="text-[51px] font-extrabold mb-[10%]">Our Team</h1>
-      <div className="team flex justify-between md:flex-row flex-col text-center gap-3">
+    <section className="pt-[5%] text-center max-w-[1190px] mx-auto pl-[15px] pr-[15px] h-auto overflow-hidden">
+      <h1 className="text-[51px] font-extrabold">Our Team</h1>
+      {/* <div className="team flex justify-between md:flex-row flex-col text-center gap-3">
         <div className="founder flex items-center gap-3 text-center">
           <img
             src={founder}
@@ -70,7 +70,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

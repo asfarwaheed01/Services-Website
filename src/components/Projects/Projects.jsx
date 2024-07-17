@@ -10,11 +10,12 @@ const Projects = () => {
         <h1 className="md:text-[51px] text-[30px] font-extrabold text-[#302F2F] md:mb-5 mb-4">
           Featured Projects
         </h1>
-        <div className="project-cards flex w-full relative gap-4 flex-wrap md:flex-row flex-col">
+        <div className="project-cards flex w-full justify-center relative gap-4 flex-wrap md:flex-row flex-col">
           <div className="project-container md:w-[30%] w-[90%] mx-auto md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
             <img
               src={p1}
               alt=""
+              loading="lazy"
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
             />
             <div className="P-details">
@@ -37,6 +38,7 @@ const Projects = () => {
             <img
               src={p2}
               alt=""
+              loading="lazy"
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
             />
             <div className="P-details">
@@ -59,9 +61,9 @@ const Projects = () => {
             <img
               src={p3}
               alt=""
+              loading="lazy"
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
             />
-
             <div className="P-details">
               <p className="text-[16px] md:text-[18px] text-left">
                 In this Projcet, We did:
@@ -77,6 +79,56 @@ const Projects = () => {
             </div>
             <div className="absolute left-0 bottom-0 text-[#DADADA] text-left p-3">
               <h2>Dubai Mall cafe Complete Renovation</h2>
+            </div>
+          </div>
+
+          {/* New */}
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+            <img
+              src={p3}
+              alt=""
+              loading="lazy"
+              className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
+            />
+            <div className="P-details">
+              <p className="text-[16px] md:text-[18px] text-left">
+                In this Projcet, We did:
+                <ol>
+                  <li>
+                  GI Ducting Work
+                  </li>
+                  <li>VRV Installation Work</li>
+                  <li>FAHU Work</li>
+                </ol>
+              </p>
+            </div>
+            <div className="absolute left-0 bottom-0 text-[#DADADA] text-left p-3">
+              <h2>Dar Ul Buteen </h2>
+            </div>
+          </div>
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+            <img
+              src={p3}
+              alt=""
+              loading="lazy"
+              className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
+            />
+            <div className="P-details">
+              <p className="text-[16px] md:text-[18px] text-left">
+                In this Projcet, We did:
+                <ol>
+                  <li>
+                  Complete renovation of the restaurant
+                  </li>
+                  <li>MEP Work</li>
+                  <li>Carpentery Work
+                  </li>
+                  <li>Aluminum Door Installation Work</li>
+                </ol>
+              </p>
+            </div>
+            <div className="absolute left-0 bottom-0 text-[#DADADA] text-left p-3">
+              <h2>Qaser Al Zam Zam Restaurant</h2>
             </div>
           </div>
         </div>

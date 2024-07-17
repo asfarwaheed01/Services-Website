@@ -1,7 +1,6 @@
 .project-container {
   position: relative;
-  margin: auto;
-  height: 300px;
+  /* margin: auto; */
   border-radius: 10px;
   overflow: hidden;
 }

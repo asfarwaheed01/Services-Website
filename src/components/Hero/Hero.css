@@ -30,3 +30,33 @@ section {
   -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+@media (min-width: 768px) {
+  .text-box h1 {
+    font-size: 25px; 
+  }
+
+  .text-box p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-box h1 {
+    font-size: 40px; 
+  }
+
+  .text-box p {
+    font-size: 22px; 
+  }
+}
+
+@media (min-width: 1440px) {
+  .text-box h1 {
+    font-size: 51px;
+  }
+
+  .text-box p {
+    font-size: 30px; 
+  }
+}
