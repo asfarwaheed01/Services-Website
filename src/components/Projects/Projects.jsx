@@ -1,6 +1,9 @@
 import p1 from "../../assets/p1.jpg";
 import p2 from "../../assets/p2.jpg";
 import p3 from "../../assets/p3.jpg";
+import p4 from "../../assets/darul.jpeg";
+import p5 from "../../assets/dae.jpeg";
+import p6 from "../../assets/zam.jpeg";
 import "./Projects.css";
 
 const Projects = () => {
@@ -85,7 +88,7 @@ const Projects = () => {
           {/* New */}
           <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
             <img
-              src={p3}
+              src={p4}
               alt=""
               loading="lazy"
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
@@ -108,7 +111,7 @@ const Projects = () => {
           </div>
           <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
             <img
-              src={p3}
+              src={p6}
               alt=""
               loading="lazy"
               className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
@@ -129,6 +132,28 @@ const Projects = () => {
             </div>
             <div className="absolute left-0 bottom-0 text-[#DADADA] text-left p-3">
               <h2>Qaser Al Zam Zam Restaurant</h2>
+            </div>
+          </div>
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+            <img
+              src={p5}
+              alt=""
+              loading="lazy"
+              className="w-full h-full object-cover hover:scale-125 transition-transform ease-in-out duration-300"
+            />
+            <div className="P-details">
+              <p className="text-[16px] md:text-[18px] text-left">
+                In this Projcet, We did:
+                <ol>
+                  <li>
+                  DX-AC Installation Work 
+                  </li>
+                  <li>Package Unit Installation</li>
+                </ol>
+              </p>
+            </div>
+            <div className="absolute left-0 bottom-0 text-[#DADADA] text-left p-3">
+              <h2>SOBHA Realty Sales Center</h2>
             </div>
           </div>
         </div>
