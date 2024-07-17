@@ -60,7 +60,7 @@ const Projects = () => {
               <h2>DAMAC Hills Villas Renovation</h2>
             </div>
           </div>
-          <div className="project-container md:w-[30%] w-[90%] mx-auto md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+          <div className="project-container md:w-[30%] w-[90%] mx-auto md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
             <img
               src={p3}
               alt=""
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
 
           {/* New */}
-          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
             <img
               src={p4}
               alt=""
@@ -109,7 +109,7 @@ const Projects = () => {
               <h2>Dar Ul Buteen </h2>
             </div>
           </div>
-          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
             <img
               src={p6}
               alt=""
@@ -134,7 +134,7 @@ const Projects = () => {
               <h2>Qaser Al Zam Zam Restaurant</h2>
             </div>
           </div>
-          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[350px] rounded-lg overflow-hidden relative">
+          <div className="project-container md:w-[30%] mx-auto md:mx-0 w-[90%] md:h-[600px] h-[300px] rounded-lg overflow-hidden relative">
             <img
               src={p5}
               alt=""
